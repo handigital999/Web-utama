@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoFlow Studio — AI Automation Specialist</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-trail" id="curTrail"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-icon">⚡</div>
+    <div class="nav-logo-text">AutoFlow<span>Studio</span></div>
+  </div>
+  <div class="nav-links">
+    <a href="#services">Layanan</a>
+    <a href="#why">Kenapa Kami</a>
+    <a href="#process">Proses</a>
+    <a href="#testi">Testimoni</a>
+  </div>
+  <a href="https://wa.me/6285136523690?text=Halo%20Min,%20saya%20tertarik%20dengan%20layanan%20Auto%20Flow%20dari%20Web%20Utama" class="nav-wa" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+    Konsultasi Gratis
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">N8N · META DEVELOPER API · WHATSAPP CS AI · KONTEN GENERATOR</div>
+  <h1>Bisnis kamu<br><em>bekerja sendiri</em></h1>
+  <div class="hero-sub">Automation specialist berbasis AI</div>
+  <p class="hero-desc">
+    Kami membangun sistem automation cerdas yang menggantikan pekerjaan manual — laporan iklan otomatis, CS AI 24/7, bahkan sampai generate konten image dari chat Telegram.
+  </p>
+  <div class="hero-stats">
+    <div>
+      <div class="stat-val">50+</div>
+      <div class="stat-label">KLIEN AKTIF</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div>
+      <div class="stat-val">4</div>
+      <div class="stat-label">SOLUSI UNGGULAN</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div>
+      <div class="stat-val">24/7</div>
+      <div class="stat-label">SISTEM BERJALAN</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div>
+      <div class="stat-val">100%</div>
+      <div class="stat-label">GARANSI KERJA</div>
+    </div>
+  </div>
+  <div class="hero-cta-row">
+    <a href="#services" class="btn-gold">Lihat Semua Layanan →</a>
+    <a href="https://wa.me/6285136523690?text=Halo%20Min,%20saya%20tertarik%20dengan%20layanan%20Auto%20Flow%20dari%20Web%20Utama" class="btn-outline-gold" target="_blank">Konsultasi Gratis</a>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="sec-eyebrow">LAYANAN KAMI</div>
+  <h2 class="sec-h2">Empat solusi,<br><em>satu tujuan</em></h2>
+  <p class="sec-sub">Setiap layanan dirancang untuk menghilangkan pekerjaan berulang dan memberi kamu lebih banyak waktu untuk hal yang penting.</p>
+
+  <div class="products-grid">
+
+    <!-- CARD 1: Meta Ads Automation -->
+    <div class="product-card reveal reveal-delay-1">
+      <div class="card-accent acc-green"></div>
+      <div class="card-body">
+        <div class="card-icon ic-green">📊</div>
+        <div class="card-tag tag-green">META ADS · GOOGLE SHEETS</div>
+        <div class="card-title">Laporan Meta Ads<br>Otomatis Harian</div>
+        <p class="card-desc">
+          Tidak perlu lagi copy-paste data dari Ads Manager setiap hari. Kami tarik semua data leads, CPL, budget & reach langsung ke Google Sheets milikmu — otomatis, setiap hari, tanpa sentuh apapun.
+        </p>
+        <div class="card-pills">
+          <span class="pill">Auto-sync harian</span>
+          <span class="pill">Real-time CPL</span>
+          <span class="pill">Alert WA/Email</span>
+          <span class="pill">Custom dashboard</span>
+        </div>
+        <div class="card-price-row">
+          <div>
+            <div class="price-from">MULAI DARI</div>
+            <div class="price-val">Rp 450rb</div>
+            <div class="price-note">sekali setup · selamanya</div>
+          </div>
+          <a href="https://metaflow.handigital.web.id" class="btn-card btn-green" target="_blank">
+            Info Lengkap →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2: CS AI WhatsApp -->
+    <div class="product-card reveal reveal-delay-2">
+      <div class="card-accent acc-teal"></div>
+      <div class="card-body">
+        <div class="card-icon ic-teal">🤖</div>
+        <div class="card-tag tag-teal">WHATSAPP · GEMINI AI · N8N</div>
+        <div class="card-title">CS WhatsApp AI<br>Aktif 24/7</div>
+        <p class="card-desc">
+          Pelanggan tanya jam 2 pagi? Tetap dibalas dalam detik. AI CS kami memahami konteks percakapan, mengingat riwayat pelanggan, dan secara otomatis mengalihkan ke manusia bila diperlukan.
+        </p>
+        <div class="card-pills">
+          <span class="pill">Balas 24/7</span>
+          <span class="pill">AI Memory</span>
+          <span class="pill">Auto handover</span>
+          <span class="pill">Anti spam</span>
+        </div>
+        <div class="card-price-row">
+          <div>
+            <div class="price-from">MULAI DARI</div>
+            <div class="price-val">Rp 2jt</div>
+            <div class="price-note">sekali setup · selamanya</div>
+          </div>
+          <a href="https://cs.ai.handigital.web.id" class="btn-card btn-teal" target="_blank">
+            Info Lengkap →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3: Telegram Image AI -->
+    <div class="product-card reveal reveal-delay-3">
+      <div class="card-accent acc-orange"></div>
+      <div class="card-body">
+        <div class="card-icon ic-orange">🎨</div>
+        <div class="card-tag tag-orange">TELEGRAM BOT · GPT-4o · IMAGE AI</div>
+        <div class="card-title">Generator Konten Visual<br>via Telegram</div>
+        <p class="card-desc">
+          Ketik deskripsi di Telegram, gambar AI berkualitas tinggi langsung terkirim ke chat kamu dalam 30 detik. Bisa juga kirim foto referensi — bot akan analisis dan buat versi serupa untukmu.
+        </p>
+        <div class="card-pills">
+          <span class="pill">30 detik/gambar</span>
+          <span class="pill">Input foto ref</span>
+          <span class="pill">Resolusi HD</span>
+          <span class="pill">Bahasa Indonesia</span>
+        </div>
+        <div class="card-price-row">
+          <div>
+            <div class="price-from">MULAI DARI</div>
+            <div class="price-val">Rp 1,5jt</div>
+            <div class="price-note">sekali setup · selamanya</div>
+          </div>
+          <a href="https://imgen.handigital.web.id" class="btn-card btn-orange" target="_blank">
+            Info Lengkap →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4: CRM Custom -->
+    <div class="product-card reveal reveal-delay-1">
+      <div class="card-accent acc-blue"></div>
+      <div class="card-body">
+        <div class="card-icon ic-blue">🗂️</div>
+        <div class="card-tag tag-blue">CRM · WA CS · DATABASE</div>
+        <div class="card-title">CRM Custom<br>untuk Bisnis Kamu</div>
+        <p class="card-desc">
+          Tinggalkan Excel dan WA yang berantakan. CRM dibangun sesuai alur bisnis kamu — terhubung ke Meta Ads, WhatsApp, dan Google Sheets. Leads tidak ada yang terlewat lagi.
+        </p>
+        <div class="card-pills">
+          <span class="pill">Auto-capture leads</span>
+          <span class="pill">Pipeline visual</span>
+          <span class="pill">WA notifikasi</span>
+          <span class="pill">Laporan otomatis</span>
+        </div>
+        <div class="card-price-row">
+          <div>
+            <div class="price-from">MULAI DARI</div>
+            <div class="price-val">Rp 5jt</div> 
+            <div class="price-note">sekali setup · selamanya</div>
+          </div>
+          <a href="https://crm.handigital.web.id" class="btn-card btn-blue" target="_blank">
+            Info Lengkap →
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- WHY US -->
+<div class="why-section" id="why">
+  <div class="why-inner">
+    <div class="why-grid">
+      <div class="why-left">
+        <div class="sec-eyebrow">KENAPA KAMI</div>
+        <h2 class="sec-h2">Bukan sekadar<br><em>freelancer biasa</em></h2>
+        <div class="why-list reveal">
+          <div class="why-item">
+            <div class="why-num">01</div>
+            <div class="why-text">
+              <h4>Portofolio Nyata, Bukan Janji</h4>
+              <p>Semua workflow yang tersedia sudah terbukti berjalan di bisnis nyata. Bukan demo, bukan mockup — sistem production yang sudah live dan menghasilkan.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">02</div>
+            <div class="why-text">
+              <h4>Setup Cepat, Support Panjang</h4>
+              <p>Setup selesai dalam 24 jam–5 hari tergantung layanan. Setelah itu kamu dapat support gratis 30 hari untuk memastikan semuanya berjalan sempurna.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">03</div>
+            <div class="why-text">
+              <h4>Bayar Sekali, Miliki Selamanya</h4>
+              <p>Tidak ada biaya langganan bulanan. Kamu bayar sekali untuk setup, sistem jadi milikmu sepenuhnya dan berjalan selamanya.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num">04</div>
+            <div class="why-text">
+              <h4>Garansi Kerja atau Uang Kembali</h4>
+              <p>Kalau sistem tidak berjalan sesuai yang dijanjikan, kami perbaiki gratis atau refund penuh. Tidak ada risiko dari sisi kamu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Dashboard Visual -->
+      <div class="why-right reveal">
+        <div class="stack-card sc-1">
+          <div style="height:8px;background:var(--border);border-radius:4px;margin-bottom:8px;"></div>
+          <div style="height:8px;background:var(--border-soft);border-radius:4px;width:60%;"></div>
+        </div>
+        <div class="stack-card sc-2">
+          <div style="height:8px;background:var(--border);border-radius:4px;margin-bottom:8px;width:80%;"></div>
+          <div style="height:8px;background:var(--border-soft);border-radius:4px;width:50%;"></div>
+        </div>
+        <div class="stack-card sc-3">
+          <div class="sc-header">
+            <div class="sc-dot" style="background:var(--meta-green);"></div>
+            <div class="sc-dot" style="background:var(--cs-teal);margin-left:-4px"></div>
+            <div class="sc-dot" style="background:var(--pixel-orange);margin-left:-4px"></div>
+            <div class="sc-title">AutoFlow Dashboard</div>
+            <div class="sc-meta">Live · Hari ini</div>
+          </div>
+          <div class="sc-metrics">
+            <div class="sc-metric">
+              <div class="sc-m-val">66</div>
+              <div class="sc-m-lab">LEADS HARI INI</div>
+              <div class="sc-m-change up">↑ +12</div>
+            </div>
+            <div class="sc-metric">
+              <div class="sc-m-val">98%</div>
+              <div class="sc-m-lab">CS AUTO-SOLVE</div>
+              <div class="sc-m-change up">✓ Aktif</div>
+            </div>
+            <div class="sc-metric">
+              <div class="sc-m-val">47</div>
+              <div class="sc-m-lab">GAMBAR DIBUAT</div>
+              <div class="sc-m-change neutral">Hari ini</div>
+            </div>
+          </div>
+          <div class="sc-bars">
+            <div class="sc-bar-row">
+              <div class="sc-bar-label">Meta Ads</div>
+              <div class="sc-bar-track"><div class="sc-bar-fill" style="width:82%;background:var(--meta-green);"></div></div>
+              <div class="sc-bar-val">82%</div>
+            </div>
+            <div class="sc-bar-row">
+              <div class="sc-bar-label">CS AI</div>
+              <div class="sc-bar-track"><div class="sc-bar-fill" style="width:98%;background:var(--cs-teal);"></div></div>
+              <div class="sc-bar-val">98%</div>
+            </div>
+            <div class="sc-bar-row">
+              <div class="sc-bar-label">Image Bot</div>
+              <div class="sc-bar-track"><div class="sc-bar-fill" style="width:67%;background:var(--pixel-orange);"></div></div>
+              <div class="sc-bar-val">67%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="gold-divider"></div>
+
+<!-- PROCESS -->
+<section class="process-section" id="process">
+  <div class="sec-eyebrow">CARA KERJA</div>
+  <h2 class="sec-h2">Dari konsultasi<br><em>ke sistem aktif</em></h2>
+  <p class="sec-sub" style="margin-bottom:0">Proses yang sederhana, hasil yang lasting.</p>
+  <div class="process-steps reveal">
+    <div class="proc-step">
+      <div class="proc-circle">1</div>
+      <div class="proc-title">Konsultasi Gratis</div>
+      <p class="proc-desc">Diskusi kebutuhan bisnismu via WhatsApp. Gratis, tanpa kewajiban apapun.</p>
+    </div>
+    <div class="proc-step">
+      <div class="proc-circle">2</div>
+      <div class="proc-title">Pilih Layanan</div>
+      <p class="proc-desc">Kami rekomendasikan solusi paling tepat yang sesuai dengan budget anda.</p>
+    </div>
+    <div class="proc-step">
+      <div class="proc-circle">3</div>
+      <div class="proc-title">Setup & Build</div>
+      <p class="proc-desc">Tim kami bangun workflow, training AI, dan konfigurasi semua sistem.</p>
+    </div>
+    <div class="proc-step">
+      <div class="proc-circle">4</div>
+      <div class="proc-title">Testing Bersama</div>
+      <p class="proc-desc">Kita test semua skenario hingga sistem berjalan sempurna sesuai kebutuhan.</p>
+    </div>
+    <div class="proc-step">
+      <div class="proc-circle">5</div>
+      <div class="proc-title">Go Live + Support</div>
+      <p class="proc-desc">Sistem aktif. Kamu dapat panduan lengkap & support 30 hari gratis.</p>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- TESTIMONIALS -->
+<div class="testi-section" id="testi">
+  <div class="testi-inner">
+    <div class="sec-eyebrow">TESTIMONI</div>
+    <h2 class="sec-h2">Kata mereka yang<br><em>sudah percaya</em></h2>
+    <div class="testi-grid">
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Dulu saya habiskan 1,5 jam tiap pagi buat rekap iklan. Sekarang buka spreadsheet langsung ada semua. <strong>Hemat waktu dan tidak ada lagi human error</strong> dalam laporan."</p>
+        <div class="testi-line"></div>
+        <div class="testi-author">
+          <div class="t-av" style="background:#1a2a0a;color:var(--meta-green);">AR</div>
+          <div>
+            <div class="t-name">Febry.</div>
+            <div class="t-role">Digital Marketer · Mojokerto</div>
+            <div class="t-product" style="color:var(--meta-green);">📊 Meta Ads Automation</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Pembeli saya tanya jam 11 malam, AI langsung balas dengan info yang akurat. <strong>Baru 1 minggu komunikasi langsung deal</strong>. Sekarang saya bisa fokus ke hal yang lebih penting."</p>
+        <div class="testi-line"></div>
+        <div class="testi-author">
+          <div class="t-av" style="background:#0a1e2e;color:var(--cs-teal);">ML</div>
+          <div>
+            <div class="t-name">dr. Mira L.</div>
+            <div class="t-role">Marketer · Gresik</div>
+            <div class="t-product" style="color:var(--cs-teal);">🤖 CS AI WhatsApp</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-3">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Bikin 20 variasi gambar untuk A/B testing iklan dulu butuh 2 hari. Sekarang <strong>10 menit sudah selesai semua dari Telegram</strong>. Conversion rate naik signifikan."</p>
+        <div class="testi-line"></div>
+        <div class="testi-author">
+          <div class="t-av" style="background:#1e0e08;color:var(--pixel-orange);">SN</div>
+          <div>
+            <div class="t-name">Sandra N.</div>
+            <div class="t-role">Marketing Manager · Surabaya</div>
+            <div class="t-product" style="color:var(--pixel-orange);">🎨 Telegram Image AI</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.35s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Leads dari Meta Ads <strong>langsung masuk pipeline otomatis</strong>. Tim sales dapat notif WA real-time, tidak ada yang terlewat. Conversion naik 23% bulan pertama."</p>
+        <div class="testi-line"></div>
+        <div class="testi-author">
+          <div class="t-av" style="background:#0a0f2e;color:#4f7fff;">BP</div>
+          <div>
+            <div class="t-name">Budi P.</div>
+            <div class="t-role">Owner Agency Properti · Jakarta</div>
+            <div class="t-product" style="color:#1a56ff;">🗂️ CRM Custom</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="gold-divider"></div>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Siap otomasi<br><em>bisnis kamu?</em></h2>
+  <p>Konsultasi pertama gratis. Tidak ada kewajiban apapun.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/6285136523690?text=Halo%20Min,%20saya%20tertarik%20dengan%20layanan%20Auto%20Flow%20dari%20Web%20Utama"class="btn-wa-main">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+      Chat WhatsApp Sekarang
+    </a>
+  </div>
+  <div class="cta-reassure">
+    <div class="cr"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>Garansi kerja</div>
+    <div class="cr"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg>Respon &lt; 1 jam</div>
+    <div class="cr"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/></svg>Konsultasi gratis</div>
+    <div class="cr"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/></svg>50+ klien aktif</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">AutoFlow<span>Studio</span></div>
+      <p class="footer-desc">Automation specialist berbasis AI. Kami membangun sistem yang bekerja untuk bisnis kamu — 24 jam sehari, 7 hari seminggu, tanpa henti.</p>
+      <div class="footer-social">
+        <a href="https://facebook.com/" class="soc-btn" title="Facebook">f</a>
+        <a href="https://instagram.com/" class="soc-btn" title="Instagram">ig</a>
+        <a href="https://youtube.com/" class="soc-btn" title="YouTube">▶</a>
+        <a href="https://tiktok.com/@" class="soc-btn" title="TikTok">♪</a>
+
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>LAYANAN</h5>
+      <ul>
+        <li><a href="https://metaflow.handigital.web.id" target="_blank">Meta Ads Automation</a></li>
+        <li><a href="https://cs.ai.handigital.web.id" target="_blank">CS AI WhatsApp</a></li>
+        <li><a href="https://imgen.handigital.web.id" target="_blank">Telegram Image AI</a></li>
+        <li><a href="https://crm.handigital.web.id" target="_blank">CRM Custom</a></li>
+        <li><a href="https://wa.me/6285136523690?text=Min%20[WU]%20Saya%20butuh%20custom%20solusi%20automation" target="_blank">Custom Solution</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>PERUSAHAAN</h5>
+      <ul>
+        <li><a href="#why">Kenapa Kami</a></li>
+        <li><a href="#process">Cara Kerja</a></li>
+        <li><a href="#testi">Testimoni</a></li>
+        <li><a href="https://wa.me/6285136523690" target="_blank">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>HUBUNGI KAMI</h5>
+      <ul>
+        <li><a href="https://wa.me/6285136523690" target="_blank">WhatsApp</a></li>
+        <li><a href="mailto:handigital999@gmail.com">Email</a></li>
+        <li><a href="https://www.instagram.com/handigital999/" target="_blank">Instagram</a></li>
+        <li><a href="https://web.facebook.com/profile.php?id=61587639736330" target="_blank">Facebook</a></li>
+        <li><a href="https://tiktok.com/@" target="_blank">TikTok</a></li>
+        <li><a href="https://youtube.com/" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 AutoFlow Studio · Powered by n8n, AI & Automation · Made in Indonesia 🇮🇩</p>
+    <div class="badge">
+      <span>⚡</span>
+      Semua sistem berjalan otomatis
+    </div>
+  </div>
+</footer>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/6285136523690?text=Halo%20Min,%20saya%20tertarik%20dengan%20layanan%20Auto%20Flow%20dari%20Web%20Utama" class="float-wa" target="_blank">
+  <div class="float-pulse"></div>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+  <span>Hubungi Kami</span>
+</a>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+// Custom cursor
+const cur = document.getElementById('cur');
+const trail = document.getElementById('curTrail');
+let mx = 0, my = 0, tx = 0, ty = 0;
+
+document.addEventListener('mousemove', e => {
+  mx = e.clientX; my = e.clientY;
+  cur.style.left = mx + 'px';
+  cur.style.top = my + 'px';
+});
+
+function animTrail() {
+  tx += (mx - tx) * 0.14;
+  ty += (my - ty) * 0.14;
+  trail.style.left = tx + 'px';
+  trail.style.top = ty + 'px';
+  requestAnimationFrame(animTrail);
+}
+animTrail();
+
+// Cursor grow on links
+document.querySelectorAll('a, button').forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    cur.style.transform = 'translate(-50%,-50%) scale(2.5)';
+    trail.style.transform = 'translate(-50%,-50%) scale(1.5)';
+    trail.style.opacity = '0.3';
+  });
+  el.addEventListener('mouseleave', () => {
+    cur.style.transform = 'translate(-50%,-50%) scale(1)';
+    trail.style.transform = 'translate(-50%,-50%) scale(1)';
+    trail.style.opacity = '1';
+  });
+});
+
+// Scroll reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
