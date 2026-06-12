@@ -1,33 +1,36 @@
 :root {
-  --bg: #09090b;
-  --surface: #111114;
-  --card: #16161a;
-  --border: #222228;
-  --border-soft: #1a1a20;
+  --bg: #070d11;
+  --surface: #0c1419;
+  --card: #101c24;
+  --border: #1a2c38;
+  --border-soft: #152330;
   --white: #ffffff;
-  --ink: #f0ede8;
-  --muted: #7a7870;
-  --dim: #3d3d42;
-  --gold: #c9a96e;
-  --gold-light: #e8c98a;
-  --gold-soft: #1a1508;
-  --gold-border: rgba(201,169,110,0.2);
+  --ink: #e8eff4;
+  --muted: #6b8a9a;
+  --dim: #2e4a5a;
+
+  /* Handigital brand — navy teal dari logo */
+  --gold: #2a7fa8;          /* biru teal utama logo → menggantikan gold */
+  --gold-light: #4aa8cc;    /* biru teal lebih terang */
+  --gold-soft: #071420;     /* dark navy untuk background aksen */
+  --gold-border: rgba(42,127,168,0.22);
+
   --wa: #25D366;
   --wa-dark: #128C7E;
 
   /* product colors */
   --meta-green: #22c55e;
   --meta-green-soft: #0d2018;
-  --cs-teal: #229ED9;
-  --cs-teal-soft: #0a1e2e;
-  --pixel-orange: #ff6b35;
-  --pixel-orange-soft: #1e0e08;
-  --crm-blue: #1a56ff;
-  --crm-blue-soft: #0a0f2e;
+  --cs-teal: #38bdf8;
+  --cs-teal-soft: #071a28;
+  --pixel-orange: #fb923c;
+  --pixel-orange-soft: #1e0e05;
+  --crm-blue: #1C4F6B;      /* navy dari logo Handigital */
+  --crm-blue-soft: #071320;
 
-  --shadow: 0 4px 24px rgba(0,0,0,0.4);
-  --shadow-lg: 0 16px 56px rgba(0,0,0,0.5);
-  --glow-gold: 0 0 60px rgba(201,169,110,0.08);
+  --shadow: 0 4px 24px rgba(0,0,0,0.5);
+  --shadow-lg: 0 16px 56px rgba(0,0,0,0.6);
+  --glow-gold: 0 0 60px rgba(42,127,168,0.10);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -53,7 +56,7 @@ body {
 }
 .cursor-trail {
   width: 32px; height: 32px;
-  border: 1px solid rgba(201,169,110,0.4);
+  border: 1px solid rgba(42,127,168,0.45);
   border-radius: 50%;
   position: fixed; pointer-events: none; z-index: 9998;
   transform: translate(-50%, -50%);
@@ -115,7 +118,7 @@ nav {
 .nav-wa:hover {
   background: var(--gold);
   color: var(--bg);
-  box-shadow: 0 0 32px rgba(201,169,110,0.3);
+  box-shadow: 0 0 32px rgba(42,127,168,0.35);
 }
 .nav-wa svg { width: 16px; height: 16px; }
 
@@ -136,7 +139,7 @@ nav {
   position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   width: 800px; height: 600px;
-  background: radial-gradient(ellipse, rgba(201,169,110,0.07) 0%, transparent 65%);
+  background: radial-gradient(ellipse, rgba(42,127,168,0.08) 0%, transparent 65%);
   pointer-events: none;
 }
 
@@ -145,8 +148,8 @@ nav {
   content: '';
   position: absolute; inset: 0;
   background-image:
-    linear-gradient(rgba(201,169,110,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(201,169,110,0.03) 1px, transparent 1px);
+    linear-gradient(rgba(42,127,168,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(42,127,168,0.04) 1px, transparent 1px);
   background-size: 80px 80px;
   pointer-events: none;
 }
@@ -222,9 +225,9 @@ nav {
   padding: 16px 36px; border-radius: 4px;
   font-size: 14px; font-weight: 700; letter-spacing: 0.05em;
   text-decoration: none; transition: all .25s;
-  box-shadow: 0 4px 24px rgba(201,169,110,0.25);
+  box-shadow: 0 4px 24px rgba(42,127,168,0.28);
 }
-.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(201,169,110,0.4); }
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(42,127,168,0.45); }
 .btn-outline-gold {
   display: flex; align-items: center; gap: 8px;
   background: transparent;
@@ -234,7 +237,7 @@ nav {
   font-size: 14px; font-weight: 600; letter-spacing: 0.05em;
   text-decoration: none; transition: all .25s;
 }
-.btn-outline-gold:hover { border-color: var(--gold); background: rgba(201,169,110,0.06); }
+.btn-outline-gold:hover { border-color: var(--gold); background: rgba(42,127,168,0.08); }
 
 /* Scroll indicator */
 .scroll-hint {
@@ -482,7 +485,7 @@ nav {
 }
 .proc-step:hover .proc-circle {
   background: var(--gold); color: var(--bg);
-  box-shadow: 0 0 32px rgba(201,169,110,0.3);
+  box-shadow: 0 0 32px rgba(42,127,168,0.35);
 }
 .proc-title { font-size: 14px; font-weight: 700; color: var(--white); margin-bottom: 8px; }
 .proc-desc { font-size: 12px; color: var(--muted); line-height: 1.65; }
@@ -531,7 +534,7 @@ nav {
   content: '';
   position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
   width: 600px; height: 400px;
-  background: radial-gradient(ellipse, rgba(201,169,110,0.07) 0%, transparent 65%);
+  background: radial-gradient(ellipse, rgba(42,127,168,0.08) 0%, transparent 65%);
   pointer-events: none;
 }
 .cta-section h2 {
@@ -633,7 +636,7 @@ footer {
   background: var(--gold); border: 2px solid var(--bg);
   animation: goldPulse 2s infinite;
 }
-@keyframes goldPulse { 0%{box-shadow:0 0 0 0 rgba(201,169,110,0.6)} 70%{box-shadow:0 0 0 8px rgba(201,169,110,0)} 100%{box-shadow:0 0 0 0 rgba(201,169,110,0)} }
+@keyframes goldPulse { 0%{box-shadow:0 0 0 0 rgba(42,127,168,0.6)} 70%{box-shadow:0 0 0 8px rgba(42,127,168,0)} 100%{box-shadow:0 0 0 0 rgba(42,127,168,0)} }
 
 /* ── REVEAL ── */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
