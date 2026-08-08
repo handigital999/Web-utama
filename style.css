@@ -27,6 +27,8 @@
   --pixel-orange-soft: #1e0e05;
   --crm-blue: #1C4F6B;      /* navy dari logo Handigital */
   --crm-blue-soft: #071320;
+  --web-purple: #a78bfa;
+  --web-purple-soft: #14102b;
 
   --shadow: 0 4px 24px rgba(0,0,0,0.5);
   --shadow-lg: 0 16px 56px rgba(0,0,0,0.6);
@@ -318,6 +320,7 @@ nav {
 .acc-teal { background: linear-gradient(90deg, var(--cs-teal), #1ab51d); }
 .acc-orange { background: linear-gradient(90deg, var(--pixel-orange), #e55a2b); }
 .acc-blue { background: linear-gradient(90deg, var(--crm-blue), #1bcc12); }
+.acc-purple { background: linear-gradient(90deg, var(--web-purple), #7c3aed); }
 
 .card-body { padding: 36px; flex: 1; display: flex; flex-direction: column; }
 
@@ -331,6 +334,7 @@ nav {
 .ic-teal { background: var(--cs-teal-soft); }
 .ic-orange { background: var(--pixel-orange-soft); }
 .ic-blue { background: var(--crm-blue-soft); }
+.ic-purple { background: var(--web-purple-soft); }
 
 .card-tag {
   font-size: 10px; font-weight: 700; letter-spacing: 0.15em;
@@ -341,6 +345,7 @@ nav {
 .tag-teal { background: var(--cs-teal-soft); color: var(--cs-teal); }
 .tag-orange { background: var(--pixel-orange-soft); color: var(--pixel-orange); }
 .tag-blue { background: var(--crm-blue-soft); color: var(--crm-blue); }
+.tag-purple { background: var(--web-purple-soft); color: var(--web-purple); }
 
 .card-title {
   font-family: 'Cormorant Garamond', serif;
@@ -391,6 +396,8 @@ nav {
 .btn-orange:hover { background: var(--pixel-orange); color: white; }
 .btn-blue { background: var(--crm-blue-soft); color: var(--crm-blue); border: 1px solid rgba(26,86,255,0.2); }
 .btn-blue:hover { background: var(--crm-blue); color: white; }
+.btn-purple { background: var(--web-purple-soft); color: var(--web-purple); border: 1px solid rgba(167,139,250,0.2); }
+.btn-purple:hover { background: var(--web-purple); color: white; }
 
 /* ── WHY US ── */
 .why-section {
