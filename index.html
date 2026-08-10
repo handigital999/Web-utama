@@ -636,7 +636,7 @@ async function submitWaLead(e) {
   if (typeof fbq === 'function') fbq('track', 'Lead');
   if (typeof ttq === 'object' && ttq.track) ttq.track('SubmitForm');
 
-  const message = `Halo Min, saya *${name}* (${phone}) tertarik dengan layanan Auto Flow dari Web Utama. Mohon info lebih lanjut ya.`;
+  const message = `Halo Min, saya *${name}* tertarik dengan layanan Auto Flow dari Web Utama. Mohon info lebih lanjut ya.`;
   const waLink = `https://wa.me/${WA_ADMIN_NUMBER}?text=${encodeURIComponent(message)}`;
 
   waSubmitText.textContent = 'Mengalihkan ke WhatsApp...';
